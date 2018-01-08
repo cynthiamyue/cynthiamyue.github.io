@@ -1,5 +1,6 @@
-/*! tinyreset.css v0.1.0 | github.com/shankariyerr/tinyreset */
-@import url("https://fonts.googleapis.com/css?family=Barlow:400,600,700");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+
 html,
 body,
 div,
@@ -122,7 +123,7 @@ table {
   border-spacing: 0; }
 
 html, body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   letter-spacing: 1px; }
 
@@ -146,22 +147,31 @@ html, body {
   font-size: 24px;
   font-weight: 600;
   color: #333333;
-  text-transform: capitalize; }
-  .content h2 small {
+  text-transform: capitalize;
+  padding-top:5px;}
+  .content small {
     color: #318175;
     font-size: 16px;
     font-weight: inherit;
-    text-transform: uppercase; }
+    text-transform: uppercase;  }
+.content h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #333333;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  line-height: 1.4;}
 
 .content p {
+  font-family: 'Open Sans', sans-serif;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   width: 80%;
   line-height: 1.4; }
   .content p img{
-    width:100%
-  }
-
+    width:100%; }
+    
 .sidebar {
   position: fixed;
   top: 0px;
@@ -171,17 +181,137 @@ html, body {
   padding: 20px;
   overflow-x: hidden;
   overflow-y: auto;
+  background-image: url("../images/postit.jpg");
   margin-top: 0px;
-  background-image: url("../images/bridge.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 0px;
   display: none; }
 
 .content {
-  margin: 0px; }
+    margin: 0%;
+  }
   .content article {
     margin: 50px 0px 25px 0px; }
+    
+    
+.nav{
+  font-family: 'Open Sans',sans-serif;
+  font-size:20px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  }
+
+.nav left {
+    color:#318175;
+    float:left;
+  }
+  
+.nav right {
+    color:#318175;
+    float:right;
+  }
+  .nav current {
+    color: #9d9d9f;
+  }
+
+.hvrbox,
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.hvrbox img {
+  width:80%;
+  max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+}
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+}
+
+a:link#case {
+  padding:0px;
+}
+
+a:link {
+    color: #318175;
+    text-decoration: none;
+    padding:5px;
+}
+
+a:visited {
+    color: #318175;
+}
+a:hover {
+    color: #9d9d9f;
+}
+
+a:active {
+    color: #9d9d9f;
+}
+
+header {
+    font-size:16px;
+    font-weight: 300;
+    color: #318175;
+    letter-spacing: 0.4px;
+    margin: 20px;
+    padding-bottom: 50px;
+}
+
+.header info {
+    float: right;
+}
 
 @media only screen and (min-width: 56.25em) {
   .sidebar {
@@ -190,7 +320,8 @@ html, body {
     margin-left: 39.0833333333%;
     padding: 5% 0% 5% 10%; }
     .content article {
-      margin: 0px 0px 50px 0px; } }
+      margin: 0px 0px 0px 0px; } }
+
 
 @media only screen and (min-width: 68.75em) {
   .sidebar {
