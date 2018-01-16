@@ -46,6 +46,9 @@ html, body {
     padding-left:5%;
     padding-right:5%;
     padding-bottom:10px;
+    max-width:500px;
+    margin: 0 auto;
+    display: block;
 
 }
 .column2 h1 {
@@ -55,16 +58,29 @@ html, body {
     text-transform: capitalize;
     padding-left:5%;
     padding-right:5%;
-    padding-bottom:15px;
+    padding-bottom:0px;
 }
+.column2 h3 {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #000000;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:5px;
+    padding-bottom:0px;
+    line-height:.025;
 
+}
 .column2 h2 {
     text-transform: uppercase;
     font-size: 16px;
     color: #318175;
     padding-left:5%;
     padding-right:5%;
-    padding-top:15px;
+    padding-top:30px;
+    padding-bottom:0px;
+    line-height:.01;
+
 }
 
 .column2 p {
@@ -75,4 +91,15 @@ html, body {
     color: #000000;  
 }
 
+.column2 d {
+    padding-left:5%;
+    padding-right:5%;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000000;
+    line-height: .01;
+    font-style: italic;
+    text-align: center;
+
+}
 
