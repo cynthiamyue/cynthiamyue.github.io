@@ -1565,7 +1565,7 @@ p.intro{
   }  
 p.maincontent{
   font-size: 18px;
-  font-weight:300;
+  font-weight:400;
   padding-top:0px;
   padding-bottom:30px;
   line-height: 25px;
@@ -1618,7 +1618,7 @@ p.img-cap{
 
 p.findings{
   font-size:20px;
-  font-weight:200;
+  font-weight:400;
   text-align: left;
   padding:auto;
   margin: auto;
