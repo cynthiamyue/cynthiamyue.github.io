@@ -19,6 +19,7 @@ p,a{font-family: sans-serif}
 a{color:inherit;}
 
 /* visited link */
+
 a:hover {
     color:#ffc0cb;
     text-decoration:none;
@@ -1014,8 +1015,9 @@ a.hp {
  }
 
  a.hp:hover {
-    color:#ffc0cb;
-    text-decoration:none;
+    color:#23079f;
+    text-decoration:underline;
+
   }
 a.toc {
     color:#c3c3c3;
