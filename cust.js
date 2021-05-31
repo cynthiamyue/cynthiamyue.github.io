@@ -5,14 +5,14 @@ var theKey = dd.substring(dd.indexOf('key=')+4)
 
 var content = [{"key":"1hy",
 "intro":"I'm a highly adaptable UX designer looking for my next role in a fast and dynamic environment.",
-"description":"I have experience with:",
+"description":"I have experience designing at different phases of the design cycle, including:",
     "r1":"&#x1F4AD; Facilitating design thinking workshops to align and ideate solutions at IBM.",
     "r2":"&#x1F9EA; Experimenting with new ideas to raise funding for public radio at WBUR's innovation lab.",
     "r3":"&#x1F4CB; Conducting exploratory UX research to use VR to help enrich lives at Cornell's Virtual Embodiment Lab. <br><br>Please take a look around and get a feel for my design process. I hope to hear back from you!"},
 {"key":"2tg",
     "intro":"I'm a highly adaptable UX designer looking to immerse myself in a fast paced, experiment driven environment where I am constantly challenged to push boundaries.",
     "description":
-    "I have experience with:",
+    "I have experience designing at different phases of the design cycle,including:",
     "r1":"&#x1F4AD; Facilitating design thinking workshops to align and ideate solutions at IBM.",
     "r2":"&#x1F9EA; Experimenting with new ideas to raise funding for public radio at WBUR's innovation lab.",
     "r3":"<br>&#x1F4CB; Conducting exploratory UX research to use VR to help enrich lives at Cornell's Virtual Embodiment Lab.<br><br>Please take a look around and get a feel for my design process. I hope to hear back from you!"},
